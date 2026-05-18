@@ -1,3 +1,3 @@
 pub mod pb {
-    include!(concat!(env!("OUT_DIR"), "/nautilus.metrics.rs"));
+    include!(concat!(env!("OUT_DIR"), "/nautrouds.metrics.rs"));
 }
