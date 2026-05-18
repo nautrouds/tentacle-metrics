@@ -8,7 +8,7 @@ To use this library in a Rust project, add it to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-tentacle-metrics = { git = "https://github.com/nautilusUDS/tentacle-metrics.git", branch = "main" }
+tentacle-metrics = { git = "https://github.com/nautrouds/tentacle-metrics.git", branch = "main" }
 ```
 
 You can access the generated protobuf types under the `pb` module:
@@ -23,7 +23,7 @@ Since this repository contains a `go.mod` file and is structured for Go modules,
 
 ```go
 import (
-    "github.com/nautilusUDS/tentacle-metrics/pb"
+    "github.com/nautrouds/tentacle-metrics/pb"
 )
 
 // Example usage:
@@ -35,4 +35,4 @@ func main() {
 }
 ```
 
-Ensure you run `go get github.com/nautilusUDS/tentacle-metrics` in your project directory to fetch the dependency.
+Ensure you run `go get github.com/nautrouds/tentacle-metrics` in your project directory to fetch the dependency.
